@@ -19,18 +19,18 @@ def login():
 
 def check_balance():
     balance = 5000
-    print("Current Balance: ₹", balance)
+    print("Current Balance: ", balance)
 
 
 def withdraw():
     balance = 5000
     withdraw_amount = 1000
-    print("Withdraw Amount: ₹", withdraw_amount)
+    print("Withdraw Amount: ", withdraw_amount)
 
     if withdraw_amount <= balance:
         balance -= withdraw_amount
         print("Withdrawal successful")
-        print("Remaining Balance: ₹", balance)
+        print("Remaining Balance: ", balance)
     else:
         print("Insufficient balance")
 
